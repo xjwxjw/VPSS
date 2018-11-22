@@ -1,6 +1,8 @@
 # VPSS
 demo code along with pretrained models for "Video Prediction via Selective Sampling"
 
+Note that we keep updating the code to make it more efficient and much lighter. Therefore the detailed module implementation is different from that in orginal paper described. But the main idea is unchanged behined the code, which is sampling and selection.
+
 For MovingMnist Datasets:
 
     The used data is here:
@@ -12,8 +14,6 @@ For MovingMnist Datasets:
         put the data into ./Data; 
         put the pretained model (should be unzipped first) into ./PretrainedModels; 
         run: python generate_vpss.py. 
-
-Note that we keep updating the code to make it more efficient and much lighter. Therefore the detailed module implementation is different from that in orginal paper described. But the main idea is unchanged behined the code, which is sampling and selection.
 
 TO DO:
 
