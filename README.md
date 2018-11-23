@@ -22,8 +22,8 @@ For MovingMnist Datasets:
         run: python train_selector.py
 For RobotPush Datasets:
 
-    The used data is here:
-    https://sites.google.com/site/brainrobotdata/home/push-dataset [1]
+    The used data [1] is here:
+    https://sites.google.com/site/brainrobotdata/home/push-dataset 
     The pretrained model (given 2 frames to predict 10 frames) is here:
     https://1drv.ms/u/s!AnsWsC45wa-nb_cGCaWMRSbyhgk
     To run the demo code: 
@@ -36,4 +36,4 @@ TO DO:
     Training code for RobotPush Datasets
     Demo coder for Human3.6M Datasets.
 
-[1]Unsupervised Learning for Physical Interaction through Video Prediction, Chelsea Finn, Ian Goodfellow, Sergey Levine, NIPS, 2016.
+[1] Unsupervised Learning for Physical Interaction through Video Prediction, Chelsea Finn, Ian Goodfellow, Sergey Levine, NIPS, 2016.
