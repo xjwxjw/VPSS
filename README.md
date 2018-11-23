@@ -34,6 +34,6 @@ For RobotPush Datasets:
 TO DO:
 
     Training code for RobotPush Datasets
-    Demo coder for Human3.6M Datasets.
+    Demo code for Human3.6M Datasets.
 
 [1] Unsupervised Learning for Physical Interaction through Video Prediction, Chelsea Finn, Ian Goodfellow, Sergey Levine, NIPS, 2016.
