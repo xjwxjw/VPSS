@@ -1,7 +1,7 @@
 # VPSS
-demo code along with pretrained models for "Video Prediction via Selective Sampling"
+Demo code along with pretrained models for "Video Prediction via Selective Sampling"
 
-Please note that we keep updating the code to make it more efficient and much lighter. 
+Fllowing final review comments, we keep updating the code to make it more efficient and much lighter. 
 To be specific, we want to unify "Sampler" and "Kernel Generator", and unify "Selector" and "Combiner", which avoids complex pre-training precedure for each sub-module.
 Therefore the detailed module implementation is different from that in orginal paper described. But the main idea is unchanged behined the code, which is sampling and selection.
 
