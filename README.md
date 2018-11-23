@@ -20,7 +20,20 @@ For MovingMnist Datasets:
         put the data into ./Data; 
         run: python train_sampler.py
         run: python train_selector.py
+For RobotPush Datasets:
 
+    The used data is here:
+    https://sites.google.com/site/brainrobotdata/home/push-dataset [1]
+    The pretrained model (given 2 frames to predict 10 frames) is here:
+    https://1drv.ms/u/s!AnsWsC45wa-nb_cGCaWMRSbyhgk
+    To run the demo code: 
+        put the data into ./Data; 
+        put the pretained model (should be unzipped first) into ./PretrainedModels; 
+        run: python generate_vpss_RobotPush.py. 
+    
 TO DO:
 
-For RobotPush Datasets and Human3.6M Datasets.
+    Training code for RobotPush Datasets
+    Demo coder for Human3.6M Datasets.
+
+[1]Unsupervised Learning for Physical Interaction through Video Prediction, Chelsea Finn, Ian Goodfellow, Sergey Levine, NIPS, 2016.
