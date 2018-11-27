@@ -9,7 +9,7 @@ For MovingMnist Datasets:
 
     The used data is here:
     https://www.dropbox.com/s/qqh4x3uq049z956/mnist.h5?dl=0
-    The pretrained model for one-digit moving is here:
+    The pretrained model for one-digit moving (given 2 frames to predict 10 frames) is here:
     https://1drv.ms/u/s!AnsWsC45wa-nbhT0AXdTCfsI_UQ
     
     To run the demo code: 
