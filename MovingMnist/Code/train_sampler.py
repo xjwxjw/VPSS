@@ -126,6 +126,14 @@ train_mnist = mnist.mnist(True, batch_size = opt.batch_size, seq_len = (opt.n_pa
 def get_training_batch():
     return train_mnist.getbatch()
 
+def clear_progressbar():
+    # moves up 3 lines
+    print("\033[2A")
+    # deletes the whole line, regardless of character position
+    print("\033[2K")
+    # moves up two lines again
+    print("\033[2A")
+    
 import scipy.misc as misc
 
 config = tf.ConfigProto()  
@@ -192,7 +200,7 @@ for epoch in range(opt.niter):
         print 'gen ', g_eval, mask_eval[:,0,0,0,0]
 
     progress.finish()
-    utils.clear_progressbar()
+    clear_progressbar()
     if epoch % 10 == 0:
         saver.save(sess, opt.log_dir + "/model.ckpt", global_step=epoch)
 
