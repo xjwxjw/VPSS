@@ -30,7 +30,7 @@ For RobotPush Datasets:
         put the data into ./Data; 
         put the pretained model (should be unzipped first) into ./PretrainedModels; 
         run: python generate_vpss_RobotPush.py. 
-    To train the demo coder:
+    To train the demo code:
         put the data into ./Data;
         run: python train_feat_vpss_RobotPush.py
         run: python train_sampler_vpss_RobotPush.py
