@@ -30,10 +30,12 @@ For RobotPush Datasets:
         put the data into ./Data; 
         put the pretained model (should be unzipped first) into ./PretrainedModels; 
         run: python generate_vpss_RobotPush.py. 
-    
+    To train the demo coder:
+        put the data into ./Data;
+        run: python train_feat_vpss_RobotPush.py
+        run: python train_sampler_vpss_RobotPush.py
+        run: python train_selector_vpss_RobotPush.py
 TO DO:
-
-    Training code for RobotPush Datasets
     Demo code for Human3.6M Datasets.
 
 [1] Unsupervised Learning for Physical Interaction through Video Prediction, Chelsea Finn, Ian Goodfellow, Sergey Levine, NIPS, 2016.
