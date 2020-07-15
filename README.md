@@ -1,5 +1,5 @@
 # VPSS
-Demo code along with pretrained models for "Video Prediction via Selective Sampling"
+Demo code along with pretrained models for "Video Prediction via Selective Sampling" (NeurIPS 2018)
 
 Following the final review comments, we keep updating the code to make it more efficient and much lighter. 
 To be specific, we want to unify "Sampler" and "Kernel Generator", and unify "Selector" and "Combiner", which avoids complex pre-training precedure for each sub-module.
